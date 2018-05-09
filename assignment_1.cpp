@@ -121,8 +121,8 @@ string filter(string &from)
 
 	for (string::const_iterator i = from.begin(); i != from.end(); i++)
 		if ((*i >= '0' && *i <= '9') || (*i >= 'A' && *i <= 'F')) 
-		//if ((*i >= '0' && *i <= '9') || (*i >= 'A' && *i <= 'F') || (*i >= 'a' && *i <= 'f'))				// if filter is supposed to pass lower case letters too then
-		{																									// uncoment the commented section and comment the if statament
+		//if ((*i >= '0' && *i <= '9') || (*i >= 'A' && *i <= 'F') || (*i >= 'a' && *i <= 'f'))		// if filter is supposed to pass lower case letters too then
+		{												// uncoment the commented section and comment the if statament   	
 			/*if (*i >= 'a' && *i <= 'f')
 			{
 				filtered += *i - 'a' + 'A';
